@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 15px;
+  background: #222;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a.active {
+  color: #00d8ff;
+  font-weight: bold;
+}
