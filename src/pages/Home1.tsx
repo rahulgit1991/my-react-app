@@ -1,17 +1,11 @@
 import Banner from "../components/Banner";
 import HomepageGrid from "../components/Homepage-grid";
-import { Helmet } from "react-helmet-async";
+//import { Helmet } from "react-helmet-async";
 
 function Home() {
   return (
     <>
-      <Helmet>
-        <title>Home | My React Website</title>
-        <meta
-          name="description"
-          content="Welcome to our React website. We build modern, fast, and responsive web applications."
-        />
-      </Helmet>
+      
 
       <div className="container-fluid p-0">
         <Banner />
