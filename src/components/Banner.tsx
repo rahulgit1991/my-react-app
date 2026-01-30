@@ -15,22 +15,22 @@ function Banner() {
       >
         <SwiperSlide>
             <div className="banner-content">
-                <img src="https://dummyimage.com/1920x500/000/fff" class="d-none d-md-block desktop-banner" alt="Banner Image" />
-                <img src="https://dummyimage.com/768x900/000/fff" class="d-block d-md-none mobile-banner" alt="Banner Image" />
+                <img src="https://dummyimage.com/1920x500/000/fff" className="d-none d-md-block desktop-banner" alt="Banner Image" />
+                <img src="https://dummyimage.com/768x900/000/fff" className="d-block d-md-none mobile-banner" alt="Banner Image" />
             </div>
         </SwiperSlide>
 
         <SwiperSlide>
             <div className="banner-content">
-                <img src="https://dummyimage.com/1920x500/777/fff" class="d-none d-md-block desktop-banner" alt="Banner Image" />
-                <img src="https://dummyimage.com/768x900/777/fff" class="d-block d-md-none mobile-banner" alt="Banner Image" />
+                <img src="https://dummyimage.com/1920x500/777/fff" className="d-none d-md-block desktop-banner" alt="Banner Image" />
+                <img src="https://dummyimage.com/768x900/777/fff" className="d-block d-md-none mobile-banner" alt="Banner Image" />
             </div>
         </SwiperSlide>
 
         <SwiperSlide>
             <div className="banner-content">
-                <img src="https://dummyimage.com/1920x500/333/fff" class="d-none d-md-block desktop-banner" alt="Banner Image" />
-                <img src="https://dummyimage.com/768x900/333/fff" class="d-block d-md-none mobile-banner" alt="Banner Image" />
+                <img src="https://dummyimage.com/1920x500/333/fff" className="d-none d-md-block desktop-banner" alt="Banner Image" />
+                <img src="https://dummyimage.com/768x900/333/fff" className="d-block d-md-none mobile-banner" alt="Banner Image" />
             </div>
         </SwiperSlide>
       </Swiper>
