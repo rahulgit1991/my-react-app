@@ -5,6 +5,8 @@ import App from "./App";
 import "./index.css";
 import "./components/Banner.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { HelmetProvider } from "react-helmet-async";
+
 
 const rootElement = document.getElementById("root");
 
@@ -13,9 +15,11 @@ if (!rootElement) {
 }
 
 createRoot(rootElement).render(
+   <HelmetProvider>
   <StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>
+  </HelmetProvider>
 );

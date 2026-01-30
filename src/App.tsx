@@ -8,7 +8,7 @@ import Contact from "./pages/Contact1";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <Header />
       
       <Routes>

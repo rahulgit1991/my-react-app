@@ -44,7 +44,9 @@
 
 
 /***************************/
-div#root {
+
+body{
+  min-width: 100%;
+    min-height: auto;
     width: 100%;
 }
-

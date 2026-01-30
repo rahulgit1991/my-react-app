@@ -29,3 +29,15 @@
 nav .container {
     margin: 0px;
 }
+/* .swiper-slide.swiper-slide-next{
+  width: 100% !important;
+} */
+ .mobile-banner, 
+ .desktop-banner{
+  width: 100%;
+ }
+ .container-fluid.nav-container.container {
+    max-width: 100%;
+    padding: 0px 10px;
+}
+
